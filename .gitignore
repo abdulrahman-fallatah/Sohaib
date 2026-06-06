@@ -1,0 +1,12 @@
+# Ignore Dart tool folders and build outputs
+.dart_tool/
+.packages
+pubspec.lock
+
+# Ignore your local SQLite database files so you don't share dummy data
+*.db
+*.sqlite
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
